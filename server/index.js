@@ -14,7 +14,7 @@ app.use(express.static(path.resolve(__dirname, '../client/build')));
 app.use(express.urlencoded({extended: true}))
 app.use(express.json())
 
-mongoose.connect(`mongodb+srv://apple:${"B5fY76IRYeTVXvAF"}@cluster0.3vjdyu4.mongodb.net/?retryWrites=true&w=majority`, {
+mongoose.connect(`mongodb+srv://apple_white:apple@cluster0.orpxlum.mongodb.net/?retryWrites=true&w=majority`, {
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
