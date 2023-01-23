@@ -127,11 +127,11 @@ function Students() {
                 </DialogActions>
             </Dialog>
 
-            <h1 style={{color: "white"}}>Danyil Kuznietsov 55774</h1>
+            <h1 style={{color: "white"}}>Arsen Liush 54106</h1>
 
             <TableContainer sx={{width: "1200px", margin: " 0 auto"}} component={Paper}>
                 <Table>
-                    <TableHead style={{backgroundColor: "#8E2DE2"}}>
+                    <TableHead style={{backgroundColor: "black"}}>
                         <TableRow>
                             <TableCell style={{color: "white"}}>
                                 Student Name

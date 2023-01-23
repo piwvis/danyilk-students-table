@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2cdebf41-4b91-4151-bfd8-6666306224fe" name="Changes" comment="1.0">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/redux/components/Students.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/redux/components/Students.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +62,14 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669597392379</updated>
-      <workItem from="1669597393696" duration="16312000" />
+      <workItem from="1669597393696" duration="17659000" />
+      <workItem from="1669663028834" duration="944000" />
+      <workItem from="1670844560091" duration="924000" />
+      <workItem from="1670879453057" duration="601000" />
+      <workItem from="1671094280432" duration="92000" />
+      <workItem from="1671143746989" duration="48000" />
+      <workItem from="1674428646998" duration="594000" />
+      <workItem from="1674475819189" duration="314000" />
     </task>
     <task id="LOCAL-00001" summary="1.0">
       <created>1669613068572</created>
@@ -83,6 +94,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1.0" />
