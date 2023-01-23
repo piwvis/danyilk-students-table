@@ -14,7 +14,7 @@ app.use(express.static(path.resolve(__dirname, '../client/build')));
 app.use(express.urlencoded({extended: true}))
 app.use(express.json())
 
-mongoose.connect(`mongodb+srv://apple:${"apple"}@cluster0.qiw31zb.mongodb.net/?retryWrites=true&w=majority`, {
+mongoose.connect(`mongodb+srv://apple:${"B5fY76IRYeTVXvAF"}@cluster0.3vjdyu4.mongodb.net/?retryWrites=true&w=majority`, {
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
@@ -34,7 +34,6 @@ const Student = mongoose.model('Student', StudentSchema)
 app.post("/addStudent", async (request, response) => {
     const student = new Student(request.body);
     response.set('Access-Control-Allow-Origin', 'http://localhost:3000');
-    console.log("Added Student", student)
     try {
         await student.save();
         response.send(student);
@@ -67,7 +66,6 @@ app.delete("/deleteStudents", async (request, response) => {
 app.post("/deleteStudent/:id", async (request, response) => {
     response.set('Access-Control-Allow-Origin', 'http://localhost:3000');
     const student = await Student.findOneAndDelete({_id: request.body._id});
-    console.log("Deleted Student", student)
     try {
         response.send(student);
     } catch (error) {
